@@ -1,0 +1,45 @@
+/*h2, h3, h4, h5 {*/
+  /*font-family: 'Poiret One';*/
+  /*font-family: 'Josefin Sans', sans-serif;*/
+  /*font-family: 'Josefin Slab', serif;*/
+  /*font-family: 'Raleway Dots', cursive;*/
+/*}*/
+
+.box {
+  /*border: 1px solid black;*/
+  height: 220px;
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.box h2 {
+  line-height: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row {
+  font-size: 0;
+}
+
+.content {
+  text-align: center;
+  /*width: 50%;*/
+  /*margin: 0 auto;*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: url('../images/wavegrid.png');
+}
+
+.image {
+  height: 212px; 
+  width: 150px;
+  box-shadow: 5px 5px 2px #888888;
+}
+
+footer {
+  margin-left: 20px;
+}
