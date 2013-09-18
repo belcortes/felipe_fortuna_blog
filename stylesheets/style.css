@@ -1,45 +1,70 @@
-/*h2, h3, h4, h5 {*/
-  /*font-family: 'Poiret One';*/
-  /*font-family: 'Josefin Sans', sans-serif;*/
-  /*font-family: 'Josefin Slab', serif;*/
-  /*font-family: 'Raleway Dots', cursive;*/
-/*}*/
-
-.box {
-  /*border: 1px solid black;*/
-  height: 220px;
-  width: 20%;
-  display: inline-block;
-  vertical-align: top;
+h1, h2, h3, h4, body {
+  font-family: cambria;
 }
 
-.box h2 {
-  line-height: 200px;
+body {
+  background: url('../images/wavegrid.png')
 }
 
-a {
-  text-decoration: none;
+.logo {
+  height: 70px;
+  width: 100%;
+  margin-top: 15px;
 }
 
-.row {
-  font-size: 0;
+.name {
+  margin-left: 20px;
+  margin-top: 22px;
+  font-size: 60px;
+  width: 300px;
+  float: left;
 }
 
-.content {
-  text-align: center;
-  /*width: 50%;*/
-  /*margin: 0 auto;*/
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background: url('../images/wavegrid.png');
+.gray {
+  font-weight: bold;
 }
 
-.image {
-  height: 212px; 
-  width: 150px;
-  box-shadow: 5px 5px 2px #888888;
+.poesia {
+  font-size: 40px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 18px;
 }
 
 footer {
   margin-left: 20px;
 }
+
+.navbar {
+  height: 60px;
+  background-color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navbar h4 {
+  color: white;
+  line-height: 60px;
+  /*font-weight: bold;*/
+  margin-right: 5px;
+}
+
+.nav-content{
+  display: inline-block;
+}
+
+.content {
+  height: auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  /*background-color: red;*/
+}
+
+.image {
+  height: 212px;
+  width: 150px;
+  margin-right: 100px;
+}
+
+
